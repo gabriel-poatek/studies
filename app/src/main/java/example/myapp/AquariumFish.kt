@@ -35,8 +35,9 @@ class Walrus : Seal()
 fun matchSeal(seal: Seal): String{
     return when(seal){
         is Walrus -> "Walrus"
-        is Sealion -> "Sea Lion"
+        is SeaLion -> "Sea Lion"
         else -> {"test"}
     }
 
 }
+

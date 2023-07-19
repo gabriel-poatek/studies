@@ -8,7 +8,8 @@ fun buildAquarium(){
 }
 
 fun main(){
-   makeFish()
+    val list2 = listOf("a","bbb","cc")
+    makeFish()
 }
 
 fun makeFish(){
